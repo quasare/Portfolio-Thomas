@@ -1138,6 +1138,10 @@ label {
   list-style-type: none;
   text-align: left; }
 
+@media (max-width: 629px) {
+  .feature-image {
+    display: none; } }
+
 @media (min-width: 641px) {
   .features .section-title {
     margin-bottom: 56px; }

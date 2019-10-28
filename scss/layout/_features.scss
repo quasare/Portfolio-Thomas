@@ -57,6 +57,12 @@
     text-align: left;
 }
 
+.feature-image {
+    @media (max-width:629px) {
+        display: none;
+    }
+}
+
 @include media('>medium') {
 
     .features {
